@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		364F64B81E5A95610017DD19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 364F64B71E5A95610017DD19 /* main.m */; };
+		364F64BB1E5A95610017DD19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 364F64BA1E5A95610017DD19 /* AppDelegate.m */; };
+		364F64BE1E5A95610017DD19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 364F64BD1E5A95610017DD19 /* ViewController.m */; };
+		364F64C11E5A95610017DD19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364F64BF1E5A95610017DD19 /* Main.storyboard */; };
+		364F64C31E5A95610017DD19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 364F64C21E5A95610017DD19 /* Assets.xcassets */; };
+		364F64C61E5A95610017DD19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 364F64C41E5A95610017DD19 /* LaunchScreen.storyboard */; };
+		364F64D11E5A95610017DD19 /* PYFAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364F64D01E5A95610017DD19 /* PYFAnimationTests.m */; };
+		364F64DC1E5A95610017DD19 /* PYFAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 364F64DB1E5A95610017DD19 /* PYFAnimationUITests.m */; };
+		364F64EE1E5A958E0017DD19 /* AnimOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 364F64EB1E5A958E0017DD19 /* AnimOperation.m */; };
+		364F64EF1E5A958E0017DD19 /* MYAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 364F64ED1E5A958E0017DD19 /* MYAnimationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		364F64CD1E5A95610017DD19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 364F64AB1E5A95610017DD19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364F64B21E5A95610017DD19;
+			remoteInfo = PYFAnimation;
+		};
+		364F64D81E5A95610017DD19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 364F64AB1E5A95610017DD19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364F64B21E5A95610017DD19;
+			remoteInfo = PYFAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		364F64B31E5A95610017DD19 /* PYFAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYFAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		364F64B71E5A95610017DD19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		364F64B91E5A95610017DD19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		364F64BA1E5A95610017DD19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		364F64BC1E5A95610017DD19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		364F64BD1E5A95610017DD19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		364F64C01E5A95610017DD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		364F64C21E5A95610017DD19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		364F64C51E5A95610017DD19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		364F64C71E5A95610017DD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364F64CC1E5A95610017DD19 /* PYFAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYFAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		364F64D01E5A95610017DD19 /* PYFAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYFAnimationTests.m; sourceTree = "<group>"; };
+		364F64D21E5A95610017DD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364F64D71E5A95610017DD19 /* PYFAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYFAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		364F64DB1E5A95610017DD19 /* PYFAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYFAnimationUITests.m; sourceTree = "<group>"; };
+		364F64DD1E5A95610017DD19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		364F64EA1E5A958E0017DD19 /* AnimOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimOperation.h; sourceTree = "<group>"; };
+		364F64EB1E5A958E0017DD19 /* AnimOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimOperation.m; sourceTree = "<group>"; };
+		364F64EC1E5A958E0017DD19 /* MYAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAnimationView.h; sourceTree = "<group>"; };
+		364F64ED1E5A958E0017DD19 /* MYAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAnimationView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		364F64B01E5A95610017DD19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364F64C91E5A95610017DD19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364F64D41E5A95610017DD19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		364F64AA1E5A95610017DD19 = {
+			isa = PBXGroup;
+			children = (
+				364F64B51E5A95610017DD19 /* PYFAnimation */,
+				364F64CF1E5A95610017DD19 /* PYFAnimationTests */,
+				364F64DA1E5A95610017DD19 /* PYFAnimationUITests */,
+				364F64B41E5A95610017DD19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		364F64B41E5A95610017DD19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				364F64B31E5A95610017DD19 /* PYFAnimation.app */,
+				364F64CC1E5A95610017DD19 /* PYFAnimationTests.xctest */,
+				364F64D71E5A95610017DD19 /* PYFAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		364F64B51E5A95610017DD19 /* PYFAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				364F64E91E5A958E0017DD19 /* Animation */,
+				364F64B91E5A95610017DD19 /* AppDelegate.h */,
+				364F64BA1E5A95610017DD19 /* AppDelegate.m */,
+				364F64BC1E5A95610017DD19 /* ViewController.h */,
+				364F64BD1E5A95610017DD19 /* ViewController.m */,
+				364F64BF1E5A95610017DD19 /* Main.storyboard */,
+				364F64C21E5A95610017DD19 /* Assets.xcassets */,
+				364F64C41E5A95610017DD19 /* LaunchScreen.storyboard */,
+				364F64C71E5A95610017DD19 /* Info.plist */,
+				364F64B61E5A95610017DD19 /* Supporting Files */,
+			);
+			path = PYFAnimation;
+			sourceTree = "<group>";
+		};
+		364F64B61E5A95610017DD19 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				364F64B71E5A95610017DD19 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		364F64CF1E5A95610017DD19 /* PYFAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				364F64D01E5A95610017DD19 /* PYFAnimationTests.m */,
+				364F64D21E5A95610017DD19 /* Info.plist */,
+			);
+			path = PYFAnimationTests;
+			sourceTree = "<group>";
+		};
+		364F64DA1E5A95610017DD19 /* PYFAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				364F64DB1E5A95610017DD19 /* PYFAnimationUITests.m */,
+				364F64DD1E5A95610017DD19 /* Info.plist */,
+			);
+			path = PYFAnimationUITests;
+			sourceTree = "<group>";
+		};
+		364F64E91E5A958E0017DD19 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				364F64EA1E5A958E0017DD19 /* AnimOperation.h */,
+				364F64EB1E5A958E0017DD19 /* AnimOperation.m */,
+				364F64EC1E5A958E0017DD19 /* MYAnimationView.h */,
+				364F64ED1E5A958E0017DD19 /* MYAnimationView.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		364F64B21E5A95610017DD19 /* PYFAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364F64E01E5A95610017DD19 /* Build configuration list for PBXNativeTarget "PYFAnimation" */;
+			buildPhases = (
+				364F64AF1E5A95610017DD19 /* Sources */,
+				364F64B01E5A95610017DD19 /* Frameworks */,
+				364F64B11E5A95610017DD19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYFAnimation;
+			productName = PYFAnimation;
+			productReference = 364F64B31E5A95610017DD19 /* PYFAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		364F64CB1E5A95610017DD19 /* PYFAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364F64E31E5A95610017DD19 /* Build configuration list for PBXNativeTarget "PYFAnimationTests" */;
+			buildPhases = (
+				364F64C81E5A95610017DD19 /* Sources */,
+				364F64C91E5A95610017DD19 /* Frameworks */,
+				364F64CA1E5A95610017DD19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				364F64CE1E5A95610017DD19 /* PBXTargetDependency */,
+			);
+			name = PYFAnimationTests;
+			productName = PYFAnimationTests;
+			productReference = 364F64CC1E5A95610017DD19 /* PYFAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		364F64D61E5A95610017DD19 /* PYFAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364F64E61E5A95610017DD19 /* Build configuration list for PBXNativeTarget "PYFAnimationUITests" */;
+			buildPhases = (
+				364F64D31E5A95610017DD19 /* Sources */,
+				364F64D41E5A95610017DD19 /* Frameworks */,
+				364F64D51E5A95610017DD19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				364F64D91E5A95610017DD19 /* PBXTargetDependency */,
+			);
+			name = PYFAnimationUITests;
+			productName = PYFAnimationUITests;
+			productReference = 364F64D71E5A95610017DD19 /* PYFAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		364F64AB1E5A95610017DD19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Sakya;
+				TargetAttributes = {
+					364F64B21E5A95610017DD19 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V88STV6K6N;
+						ProvisioningStyle = Automatic;
+					};
+					364F64CB1E5A95610017DD19 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V88STV6K6N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 364F64B21E5A95610017DD19;
+					};
+					364F64D61E5A95610017DD19 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = V88STV6K6N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 364F64B21E5A95610017DD19;
+					};
+				};
+			};
+			buildConfigurationList = 364F64AE1E5A95610017DD19 /* Build configuration list for PBXProject "PYFAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 364F64AA1E5A95610017DD19;
+			productRefGroup = 364F64B41E5A95610017DD19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				364F64B21E5A95610017DD19 /* PYFAnimation */,
+				364F64CB1E5A95610017DD19 /* PYFAnimationTests */,
+				364F64D61E5A95610017DD19 /* PYFAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		364F64B11E5A95610017DD19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364F64C61E5A95610017DD19 /* LaunchScreen.storyboard in Resources */,
+				364F64C31E5A95610017DD19 /* Assets.xcassets in Resources */,
+				364F64C11E5A95610017DD19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364F64CA1E5A95610017DD19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364F64D51E5A95610017DD19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		364F64AF1E5A95610017DD19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364F64EE1E5A958E0017DD19 /* AnimOperation.m in Sources */,
+				364F64BE1E5A95610017DD19 /* ViewController.m in Sources */,
+				364F64BB1E5A95610017DD19 /* AppDelegate.m in Sources */,
+				364F64B81E5A95610017DD19 /* main.m in Sources */,
+				364F64EF1E5A958E0017DD19 /* MYAnimationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364F64C81E5A95610017DD19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364F64D11E5A95610017DD19 /* PYFAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		364F64D31E5A95610017DD19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364F64DC1E5A95610017DD19 /* PYFAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		364F64CE1E5A95610017DD19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 364F64B21E5A95610017DD19 /* PYFAnimation */;
+			targetProxy = 364F64CD1E5A95610017DD19 /* PBXContainerItemProxy */;
+		};
+		364F64D91E5A95610017DD19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 364F64B21E5A95610017DD19 /* PYFAnimation */;
+			targetProxy = 364F64D81E5A95610017DD19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		364F64BF1E5A95610017DD19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364F64C01E5A95610017DD19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		364F64C41E5A95610017DD19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				364F64C51E5A95610017DD19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		364F64DE1E5A95610017DD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		364F64DF1E5A95610017DD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		364F64E11E5A95610017DD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V88STV6K6N;
+				INFOPLIST_FILE = PYFAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.PYFAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		364F64E21E5A95610017DD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V88STV6K6N;
+				INFOPLIST_FILE = PYFAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.PYFAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		364F64E41E5A95610017DD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V88STV6K6N;
+				INFOPLIST_FILE = PYFAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.PYFAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYFAnimation.app/PYFAnimation";
+			};
+			name = Debug;
+		};
+		364F64E51E5A95610017DD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V88STV6K6N;
+				INFOPLIST_FILE = PYFAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.PYFAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYFAnimation.app/PYFAnimation";
+			};
+			name = Release;
+		};
+		364F64E71E5A95610017DD19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V88STV6K6N;
+				INFOPLIST_FILE = PYFAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.PYFAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYFAnimation;
+			};
+			name = Debug;
+		};
+		364F64E81E5A95610017DD19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V88STV6K6N;
+				INFOPLIST_FILE = PYFAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpude.PYFAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYFAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		364F64AE1E5A95610017DD19 /* Build configuration list for PBXProject "PYFAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364F64DE1E5A95610017DD19 /* Debug */,
+				364F64DF1E5A95610017DD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364F64E01E5A95610017DD19 /* Build configuration list for PBXNativeTarget "PYFAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364F64E11E5A95610017DD19 /* Debug */,
+				364F64E21E5A95610017DD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		364F64E31E5A95610017DD19 /* Build configuration list for PBXNativeTarget "PYFAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364F64E41E5A95610017DD19 /* Debug */,
+				364F64E51E5A95610017DD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		364F64E61E5A95610017DD19 /* Build configuration list for PBXNativeTarget "PYFAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364F64E71E5A95610017DD19 /* Debug */,
+				364F64E81E5A95610017DD19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 364F64AB1E5A95610017DD19 /* Project object */;
+}
